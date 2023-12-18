@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminAddProduct">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter product Details"
+                android:textSize="40dp"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:id="@+id/edittext_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Name"
+                android:textSize="28dp"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/text"/>
+
+            <EditText
+                android:id="@+id/edittext_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Price"
+                android:textSize="28dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/edittext_name"/>
+
+            <Button
+                android:id="@+id/button_add"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add To Menu"
+                android:textSize="28dp"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/edittext_price"/>
+
+            <Button
+                android:id="@+id/button_view"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Menu"
+                android:textSize="28dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/button_add"/>
+
+            <Button
+                android:id="@+id/button_delete"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete Product"
+                android:textSize="28dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/button_view"/>
+
+            <Button
+                android:id="@+id/button_edit"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Product"
+                android:textSize="28dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/button_delete"/>
+            <Button
+                android:id="@+id/button_redirect"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inventory Manage"
+                android:textSize="28dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/button_edit" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        android:background="@color/purple_500"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/adminmenu"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

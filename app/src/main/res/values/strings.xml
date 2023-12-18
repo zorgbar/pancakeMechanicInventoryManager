@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Pancake Mechanic</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="login_register">Login</string>
+    <string name="register_login">Register</string>
+    <string-array name="role">
+        <item>Teller</item>
+        <item>Admin</item>
+        <item>Chef</item>
+    </string-array>
+
+    <!-- activity_edit_item.xml -->
+    <string name="edit_item_title">Edit Item</string>
+    <string name="item_name_hint">Item Name</string>
+    <string name="quantity_hint">Quantity</string>
+    <string name="price_hint">Price</string>
+
+    <!-- activity_main.xml -->
+    <string name="welcome_message">Welcome to Pancake Mechanic Inventory Manager</string>
+    <string name="add_item_button_text">Add Item</string>
+
+    <!-- item_inventory.xml -->
+    <string name="edit_button_label">Edit</string>
+    <string name="delete_button_label">Delete</string>
+
+    <!-- item_layout.xml -->
+    <string name="item_name_label">Item Name</string>
+    <string name="quantity_label">Quantity</string>
+    <string name="price_label">Price</string>
+
+    <string name="save_button_text">Save</string>
+    <string name="welcome_text">Welcome to Pancake Mechanic Inventory Manager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

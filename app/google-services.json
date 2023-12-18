@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "577227284629",
+    "project_id": "pancake-mechanic",
+    "storage_bucket": "pancake-mechanic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577227284629:android:598db52c4bf10609b9bb9c",
+        "android_client_info": {
+          "package_name": "com.example.pancakemechanic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn_XPahnBfY_InbfiL_kNZW_cNFTTk56w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
